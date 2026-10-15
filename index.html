@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="style.css">
 <link rel="icon" href="assets/logo.svg">
 </head>
-<body>
+<body class="home">
 <header class="gnav" id="gnav">
   <nav class="gnav-in" aria-label="Global">
     <a class="brand" href="index.html" aria-label="Tun Labs home"><img src="assets/logo.svg" alt="" width="18" height="18"><span>Tun Labs</span></a>
@@ -21,30 +21,27 @@
 
 <main id="top">
   <section class="band hero">
-    <div class="foliage" aria-hidden="true"></div>
-    <div class="hero-in">
+    <svg class="h-lotus" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2c3 3.5 4.5 7 4.5 10.5A4.5 4.5 0 0 1 12 17a4.5 4.5 0 0 1-4.5-4.5C7.5 9 9 5.5 12 2Z"/><path d="M4 11c2.5.3 4.5 2 5.2 4.6M20 11c-2.5.3-4.5 2-5.2 4.6M8 21h8" fill="none" stroke-width="1.4" stroke-linecap="round"/></svg>
     <h1>Tun Labs.</h1>
-    <p class="sub">Small studio. <em>Apps that help.</em></p>
-    <div class="lotus" aria-hidden="true"><svg viewBox="0 0 220 28" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"><path d="M10 14h80"/><path d="M130 14h80"/><path d="M110 4c6 6 6 14 0 20c-6-6-6-14 0-20z"/><path d="M101 15c-5-1-6-5-3-6M119 15c5-1 6-5 3-6"/></svg></div>
+    <p class="sub">Small studio. Apps that help.</p>
     <div class="ctas">
-      <a class="pill-btn" href="#citizenprep">See our apps <span aria-hidden="true">→</span></a>
-      <a class="glass-btn" href="#contact" aria-label="Get in touch"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M12 5v14M6 13l6 6 6-6"/></svg></a>
+      <a class="pill" href="#citizenprep">See our apps</a>
+      <a class="tlink" href="#contact">Get in touch <span aria-hidden="true">›</span></a>
     </div>
     <div class="icon-row" aria-hidden="true">
       <img src="assets/citizenprep-icon.png" alt="">
       <img src="assets/paycheck-pocket-icon.png" alt="">
       <img src="assets/nokorgo-icon.svg" alt="">
     </div>
-    </div>
   </section>
 
-  <section class="band white app" id="citizenprep">
+  <section class="band grey app" id="citizenprep">
     <p class="eyebrow"><img src="assets/citizenprep-icon.png" alt="" width="28" height="28">CitizenPrep</p>
     <h2>Pass your citizenship interview.</h2>
     <p class="tag">Study the civics questions, take practice tests, and listen on the go.</p>
     <div class="links">
-      <a class="tlink" href="apps.html">Learn more <span aria-hidden="true">›</span></a>
-      <a class="tlink" href="privacy.html">Privacy <span aria-hidden="true">›</span></a>
+      <a class="tlink" href="apps.html#citizenprep">Learn more <span aria-hidden="true">›</span></a>
+      <a class="tlink" href="privacy.html#citizenprep">Privacy <span aria-hidden="true">›</span></a>
     </div>
     <div class="badges" role="group" aria-label="Store availability">
       <span class="soon-badge gp-soon"><small>Google Play</small><b>· Coming soon</b></span>
@@ -53,10 +50,10 @@
     <div class="phone"><div class="screen"><img src="img/cp.png" alt="CitizenPrep home screen showing the U.S. Citizenship study card and an active 2025 civics practice test."></div></div>
   </section>
 
-  <section class="band grey app" id="paycheck">
+  <section class="band white app" id="paycheck">
     <p class="eyebrow"><img src="assets/paycheck-pocket-icon.png" alt="" width="28" height="28">Paycheck Pocket</p>
     <h2>Know your take&#8209;home pay.</h2>
-    <p class="tag">Enter your hours. See an estimate of what lands in your pocket.</p>
+    <p class="tag">Estimate take-home pay for all 50 states + DC.</p>
     <div class="links">
       <a class="tlink" href="https://paycheckpocket.com">Visit site <span aria-hidden="true">›</span></a>
       <a class="tlink" href="https://paycheckpocket.com/privacy/">Privacy <span aria-hidden="true">›</span></a>
@@ -68,11 +65,11 @@
     <div class="phone"><div class="screen pp"><img src="img/pp-crop.png" alt="Paycheck Pocket estimate screen showing an estimated take-home amount for a sample job."></div></div>
   </section>
 
-  <section class="band dark app" id="nokorgo">
+  <section class="band black app" id="nokorgo">
     <p class="eyebrow"><img src="assets/nokorgo-icon.svg" alt="" width="28" height="28">NokorGo</p>
     <h2>Cambodia, in your pocket.</h2>
     <p class="soon">Coming soon.</p>
-    <div class="links"><a class="tlink" href="privacy.html">Privacy <span aria-hidden="true">›</span></a></div>
+    <div class="links"><a class="tlink" href="privacy.html#nokorgo">Privacy <span aria-hidden="true">›</span></a></div>
     <div class="badges" role="group" aria-label="Store availability">
       <span class="soon-badge gp-soon"><small>Google Play</small><b>· Coming soon</b></span>
       <span class="soon-badge ios-soon"><small>iOS app</small><b>· Coming soon</b></span>
@@ -83,7 +80,7 @@
     </div></div>
   </section>
 
-  <section class="band white" id="values">
+  <section class="band grey" id="values">
     <h2>What we build for.</h2>
     <div class="bento">
       <article class="tile t-big"><p class="k">01</p><h3>Useful.</h3><p>Every app solves one real problem.</p></article>
@@ -92,15 +89,15 @@
     </div>
   </section>
 
-  <section class="band grey local">
+  <section class="band white local">
     <p class="eyebrow plain">Tun Labs</p>
     <h2>Made in Lynnwood, WA.</h2>
     <p class="tag">An independent studio.</p>
   </section>
 
-  <section class="band dark contact" id="contact">
-    <h2>Questions? Just <em>ask.</em></h2>
-    <a class="pill-btn" href="mailto:support@tunlabsapps.com">Email support</a>
+  <section class="band grey contact-l" id="contact">
+    <h2>Questions? Just ask.</h2>
+    <a class="pill" href="mailto:support@tunlabsapps.com">Email support</a>
     <p class="mail"><a class="tlink" href="mailto:support@tunlabsapps.com">support@tunlabsapps.com <span aria-hidden="true">›</span></a></p>
   </section>
 </main>
