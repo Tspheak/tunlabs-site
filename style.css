@@ -207,3 +207,4 @@ background:linear-gradient(145deg,#2c2c2e,#0d0d0f);box-shadow:0 0 0 2px #48484a 
  .home .icon-row{margin-top:28px}
  .home .contact-l{padding-bottom:80px}
 }
+.home .hero em{color:var(--bronze)}
